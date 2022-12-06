@@ -1,0 +1,35 @@
+.CountryInfo {
+    width: 100%;
+}
+
+.CountryInfo h3 {
+    font-size: 28px;
+}
+
+.CountryInfo table {
+    margin: auto;
+    width: 450px;
+}
+
+/*
+.CountryInfo table tbody {}
+*/
+
+.CountryInfo table tbody tr {
+    padding: 5px 10px;
+}
+
+.CountryInfo table tbody tr td {
+    padding: 15px 30px;
+}
+
+.CountryInfo table tbody tr td:nth-child( 1 ) {
+    font-weight: bold;
+    text-align: left;
+}
+
+.CountryInfo table tbody tr td:nth-child( 2 ) {
+    text-align: right;
+}
+
+
